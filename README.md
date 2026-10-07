@@ -53,4 +53,66 @@ I configured an access review for the Finance access package with:
 
 The assignment was reviewed and approved, demonstrating periodic access recertification.
 
-![Completed access review](images/Screenshot%202026-10-
+![Completed access review](images/Screenshot%202026-10-02%20132641.png)
+
+## Mover Scenario
+
+Arman Patel was initially assigned to the Finance access package. When the user moved to an IT role, I completed the following process:
+
+1. The user requested the IT access package.
+2. A business justification was provided.
+3. The request was approved.
+4. Entra provisioned membership in the IT group.
+5. The previous Finance assignment was removed.
+6. IT group membership was verified.
+
+This demonstrates role-based access changes while preventing unnecessary accumulation of permissions.
+
+![Access packages](images/Screenshot%202026-10-05%20164410.png)
+
+![Mover access request](images/Screenshot%202026-10-05%20165139.png)
+
+![IT access delivered](images/Screenshot%202026-10-06%20113122.png)
+
+![IT group membership](images/Screenshot%202026-10-06%20113901.png)
+
+## Leaver Scenario
+
+Benjamin Thompson was used to demonstrate the employee offboarding process.
+
+The following actions were completed:
+
+1. Removed the Finance access-package assignment
+2. Verified removal from governed groups
+3. Revoked active sign-in sessions
+4. Disabled the Entra user account
+5. Confirmed the user had no remaining group memberships
+
+![Access before removal](images/Screenshot%202026-10-07%20120640.png)
+
+![Active sessions revoked](images/Screenshot%202026-10-07%20122629.png)
+
+![User account disabled](images/Screenshot%202026-10-07%20125106.png)
+
+![No remaining group memberships](images/Screenshot%202026-10-07%20125154.png)
+
+## Governance Controls Demonstrated
+
+- Least-privilege access
+- Self-service access requests
+- Business justification
+- Approval-based provisioning
+- Time-limited assignments
+- Periodic access certification
+- Role-change access removal
+- Session revocation
+- Account deactivation
+- Deprovisioning verification
+
+## Key Takeaways
+
+This lab provided practical experience managing identities throughout their lifecycle. It demonstrated that identity governance involves more than granting access—it also requires approval, periodic validation, timely removal, and verification that deprovisioning was successful.
+
+## Security and Privacy
+
+This repository contains sanitized documentation from a lab environment. No passwords, access tokens, secrets, or production data are included.
